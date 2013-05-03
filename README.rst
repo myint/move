@@ -45,3 +45,11 @@ Features
 - ``hg mv``
 
 If above commands all fail, it falls back to running plain ``mv``.
+
+
+Links
+=====
+
+.. image:: https://travis-ci.org/myint/move.png?branch=master
+   :target: https://travis-ci.org/myint/move
+   :alt: Build status
