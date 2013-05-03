@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+"""Helper script run by qmv."""
+
 import sys
 
 import move

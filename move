@@ -1,5 +1,7 @@
 #!/usr/bin/env python
 
+"""Main script."""
+
 import sys
 
 import move
