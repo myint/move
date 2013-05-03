@@ -27,8 +27,11 @@ def revision_control_move(arguments):
     """Return diff from revision control system."""
     for check, move in REVISION_CONTROL:
         if not check or check_command_status(check):
-            subprocess.call(move + arguments,
-                            stdout=subprocess.PIPE)
+            result = subprocess.call(move + arguments,
+                                     stdout=subprocess.PIPE)
+
+            if result == 0:
+                break
 
 
 def interactive_move(arguments):
