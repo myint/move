@@ -17,6 +17,24 @@ Interactively moves files under revision control using a text editor.
    :align: center
 
 
+Installation
+============
+
+*move* depends on *renameutils*.
+
+Under MacPorts::
+
+   $ sudo port install renameutils
+
+Under Ubuntu::
+
+   $ sudo apt-get install renameutils
+
+To install *move*::
+
+   $ pip install move
+
+
 Features
 ========
 
