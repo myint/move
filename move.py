@@ -24,7 +24,7 @@ def check_command_status(arguments):
 
 
 def revision_control_move(arguments):
-    """Return diff from revision control system."""
+    """Move file under revision control."""
     for check, move in REVISION_CONTROL:
         if not check or check_command_status(check):
             result = subprocess.call(move + arguments,
