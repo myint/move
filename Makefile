@@ -6,7 +6,7 @@ check:
 	scspell move move.py setup.py README.rst
 
 readme:
-	@restview --long-description
+	@restview --long-description --strict
 
 register:
 	@python setup.py register sdist upload
