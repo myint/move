@@ -11,6 +11,7 @@ install:
     - python setup.py --quiet install
 
 script:
+    - rm -rf ./.test
     - mkdir -p ./.test/1
     - EDITOR=./fake move ./.test
     - ls ./.test/2
