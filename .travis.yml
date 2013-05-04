@@ -7,6 +7,7 @@ python:
     - "3.3"
 
 install:
+    - sudo apt-get update --quiet=2
     - sudo apt-get install --quiet=2 renameutils
     - python setup.py --quiet install
 
