@@ -5,16 +5,16 @@ move
 Interactively moves files under revision control using a text editor.
 
 .. image:: https://raw.github.com/myint/move/master/screenshot1.png
-   :alt: screenshot
-   :align: center
+    :alt: screenshot
+    :align: center
 
 .. image:: https://raw.github.com/myint/move/master/screenshot2.png
-   :alt: screenshot
-   :align: center
+    :alt: screenshot
+    :align: center
 
 .. image:: https://raw.github.com/myint/move/master/screenshot3.png
-   :alt: screenshot
-   :align: center
+    :alt: screenshot
+    :align: center
 
 
 Installation
@@ -24,15 +24,15 @@ Installation
 
 Under MacPorts::
 
-   $ sudo port install renameutils
+    $ sudo port install renameutils
 
 Under Ubuntu::
 
-   $ sudo apt-get install renameutils
+    $ sudo apt-get install renameutils
 
 To install *move*::
 
-   $ pip install move
+    $ pip install move
 
 
 Features
@@ -51,5 +51,5 @@ Links
 =====
 
 .. image:: https://travis-ci.org/myint/move.png?branch=master
-   :target: https://travis-ci.org/myint/move
-   :alt: Build status
+    :target: https://travis-ci.org/myint/move
+    :alt: Build status
