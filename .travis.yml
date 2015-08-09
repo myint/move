@@ -1,3 +1,5 @@
+sudo: false
+
 language: python
 
 python:
@@ -7,9 +9,12 @@ python:
     - "3.3"
     - "3.4"
 
+addons:
+    apt:
+        packages:
+            - renameutils
+
 install:
-    - sudo apt-get update --quiet=2
-    - sudo apt-get install --quiet=2 renameutils
     - python setup.py --quiet install
 
 script:
